@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Archivo+Black&family=Bree+Serif&family=Caveat+Brush&family=Dela+Gothic+One&family=Handlee&family=Kanit:ital,wght@1,200&family=Kaushan+Script&family=League+Spartan:wght@300&family=Prompt:wght@300&family=Raleway:wght@500&family=Roboto+Mono:wght@200&family=Secular+One&family=Sedgwick+Ave+Display&family=Seymour+One&family=Ubuntu:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: 'League Spartan', sans-serif;
+}
+
+.one::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0) 0, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.8) 80%);
+}
+
+.one img{
+    transform: translateY(-20%) translateX(-10%);
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    margin: 25px;
+    padding-left: 30px;
+    font-size: 3rem;
+    color: rgb(252, 50, 50);
+    font-weight: bold;
+    cursor: default;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+}
+
+.btn{
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 4rem;
+    transition: 0.3s;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(249, 46, 46);
+    outline: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(173, 28, 28);
+}
+
+.one{
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+    margin: 16rem;
+    margin-left: 26rem;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.content h2{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.content p{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#favour{
+    background-color: black;
+    height: 100vh;
+    width: 99vw;
+    overflow: hidden;
+}
+
+.head{
+    color: white;
+    margin: 5rem;
+    font-size: 3rem;
+    
+}
+
+.myForm{
+   font-size: 20px;
+}
+
+.myForm label{
+    color: white;
+    padding-bottom: 8px;
+}
+
+.divs{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.divs select{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.myForm form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.divs1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.divs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divs2 .btn{
+    margin: 8px;
+}
+
+#price{
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.cards{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    line-height: 20px;
+    border: 0.5px solid rgb(154, 153, 153);
+    height: 450px;
+    width:300px;
+    transition: all 0.25s ease-in-out;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+.card1 h1, p, .list{
+    text-align: center;
+    /* padding-bottom: 30px; */
+}
+
+.card1 h1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.card1 p{
+    padding-bottom: 30px;
+}
+
+.list{
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li button{
+    background-color: rgb(241, 55, 55);
+    margin: auto;
+    margin-top: 40px;
+}
+
+.red{
+    color: rgb(252, 62, 62);
+}
+
+#footer{
+    background-color: black;
+    width: 99vw;
+    height: 40vh;
+}
+
+.container{
+    display: grid;
+    /* flex-direction: column; */
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: space-around;
+    padding: 50px;
+    gap: 1rem;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.container li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.container li a{
+    color: rgb(162, 161, 161);
+    text-decoration: none;
+    transition: all 0.15s ease-in;
+}
+
+.container li a:hover{
+    color: rgb(252, 62, 62);
+    text-decoration: underline;
+}
+
+.contact h2{
+    color: rgb(162, 161, 161);
+    text-align: center;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1 i{
+    color: rgb(162, 161, 161);
+    margin: 10px;
+    font-size: 25px;
+    transition: all 0.25s ease-out;
+}
+
+.cont1 i:hover{
+    color: rgb(252, 62, 62);
+    cursor: pointer;
+}
+
+.copy p{
+    font-size: 20px;
+    color: rgb(162, 161, 161);
+    margin-top: 20px;
+}

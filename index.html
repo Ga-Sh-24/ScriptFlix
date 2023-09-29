@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriptFlix | Explore, Watch, Read</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/0f4075b95b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="home">
+        <header class="header" style="z-index: 1;">
+            <a href="#" class="logo">SCRIPTFLIX</a>
+    
+            <nav class="navbar">
+                <button class="btn">Sign In</button>
+            </nav>
+        </header>
+
+        <div class="one">
+            <img src="bg2.jpg" alt="">
+            <div class="content">
+                <h2>Explore, Watch, Read</h2>
+                <p>Join Now...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="favour">
+        <h2 class="head">Choose your favourite <span style="color: rgb(252, 62, 62);">movies, sitcoms, novels, books here...</span></h2>
+        <div class="myForm">
+            <form action="POST">
+                <div class="divs1">
+                    <div class="divs">
+                        <label for="type">Choose type</label>
+                        <select name="type" id="type">
+                            <option value="specify" disabled selected>Movies, Sitcoms, Novels, Books...</option>
+                            <option value="movies">Movies</option>
+                            <option value="sitcoms">Sitcoms</option>
+                            <option value="novels">Novels</option>
+                            <option value="books">Books</option>
+                        </select>
+                    </div>
+        
+                    <div class="divs">
+                        <label for="genre">Choose Genre</label>
+                        <select name="genre" id="genre">
+                            <option value="Genre..." disabled selected>Genre...</option>
+                            <option value="action">Action</option>
+                            <option value="comedy">Comedy</option>
+                            <option value="drama">Drama</option>
+                            <option value="fantasy">FantasyL</option>
+                            <option value="science">Science Fiction</option>
+                            <option value="romance">Romance</option>
+                            <option value="mystery">Mystery</option>
+                            <option value="horror">Horror</option>
+                            <option value="historical">Historical</option>
+                            
+                        </select>
+                    </div>
+                </div>
+
+                <div class="divs1">
+                    <div class="divs">
+                        <label for="language">Choose Language</label>
+                        <select name="language" id="language">
+                            <option value="lang">Language...</option>
+                            <option value="english">English</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="french">French</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="others">Others</option>
+                            
+                        </select>
+                    </div>
+    
+                    <div class="divs">
+                        <label for="platforms">Choose Platform</label>
+                        <select name="platforms" id="platforms">
+                            <option value="plat" disabled selected>Platform...</option>
+                            <option value="netflix">Netflix</option>
+                            <option value="prime">Amazon Prime Video</option>
+                            <option value="disney">Disney+ Hotstar</option>
+                            <option value="zee">Zee5</option>
+                            <option value="mx">MX PLayer</option>
+                            <option value="sony">Sony Liv</option>
+                        </select>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="divs2"> 
+            <div class="divs">
+                 <button class="btn" style="margin-top: 20px;">Apply filters</button> 
+                <button class="btn">Reset filters</button> 
+            </div>
+        </div>
+        
+    </section>
+    <hr color="grey">
+
+    <section id="price">
+        <h2 class="head">Our <span style="color: rgb(252, 62, 62);">Plans...</span></h2>
+
+        <div class="cards">
+            <div class="card1">
+                <h1>Basic</h3>
+                <p><span style="font-size: 50px;"><span class="red">$</span>10</span><span class="red">/per month</span></p>
+                <hr color="grey">
+                <div class="list">
+                    <ul>
+                        <li>Ad-supported</li>
+                        <li>Standard Quality</li>
+                        <li>No offline downloads</li>
+                        <li><button class="btn">Buy Now...</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card1">
+                <h1>Standard</h3>
+                <p><span style="font-size: 50px;"><span class="red">$</span>20</span><span class="red">/per month</span></p>
+                <hr color="grey">
+                <div class="list">
+                    <ul>
+                        <li>Ad free experience</li>
+                        <li>HD quality streaming</li>
+                        <li>Offline downloads</li>
+                        <li><button class="btn">Buy Now...</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card1">
+                <h1>Premium</h3>
+                <p><span style="font-size: 50px;"><span class="red">$</span>30</span><span class="red">/per month</span></p>
+                <hr color="grey">
+                <div class="list">
+                    <ul>
+                        <li>Ad free experience</li>
+                        <li>4K streaming</li>
+                        <li>Unlimited offline downloads</li>
+                        <li><button class="btn">Buy Now...</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr color="grey">
+    
+    <section id="footer">
+        <div class="container">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">About Us</a></li>
+            
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Help Center</a></li>
+
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Us At:</h2>
+            <div class="cont1">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class='bx bxl-instagram-alt' style="font-size: 30px;"></i>
+                <i class='bx bxl-twitter' style="font-size: 30px;"></i>
+            </div>
+            </div>
+
+            <div class="copy">
+                <p>Copyright &copy; by ScriptFlix.com | All Rights Reserved</p>
+            </div>
+    </section>
+</body>
+</html>
